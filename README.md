@@ -1,12 +1,12 @@
 
-## appium--testng-POM-framework** 
+#Appium--testng-POM-framework #
 
 
 Highlights:
 This is a sample POM framework to automate Amazon Android app
 
 
-** Technology stack:** 
+#Technology stack:
 - TestNG (test runner)
 - Appium (mobile testing)
 - Selenium (web app testing) [Used as a wrapper for appium]
@@ -20,7 +20,7 @@ This is a sample POM framework to automate Amazon Android app
 - Appium configuration should be up and running (Can use appium-doctor -h to see the configuration)
 - Android tab Simulator or Galaxy S tab real device **(On small devices if the element is not visible due to screen size or keypad the test's will fail)**
 
-** Steps to run the code** 
+** Steps to run the code ** 
 
 * Import the project as maven project preferable in eclipse to avoid any issues
 * Click Next

@@ -25,12 +25,14 @@ public class LandingPageAndroid extends ScreenBase {
 	}
 
 	By sign_in_button = By.id("in.amazon.mShop.android.shopping:id/sign_in_button");
-	By ap_email_login = By.id("ap_email_login");
-	By continueBtn = By.xpath(
-			"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.view.View[2]/android.view.View/android.view.View/android.view.View[5]/android.widget.Button\n");
+	By ap_email_login = By.xpath("//*[@resource-id='ap_email_login']");
+	By continueBtn = By.xpath("//*[@resource-id='continue']");
 
-	By ap_password = By.id("ap_password");
-	By signInSubmit = By.id("signInSubmit");
+
+	By ap_password = By.xpath("//*[@resource-id='ap_password']");
+
+
+	By signInSubmit = By.xpath("//*[@resource-id='signInSubmit']");
 
 	public void tapSignInOnLandingPage() {
 		System.out.println("tapSignInOnLandingPage: " + driver); // printed to see if the tapSignInOnLandingPage is

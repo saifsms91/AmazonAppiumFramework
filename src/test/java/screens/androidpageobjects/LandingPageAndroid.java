@@ -21,7 +21,6 @@ public class LandingPageAndroid extends ScreenBase {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     By sign_in_button = By.id("in.amazon.mShop.android.shopping:id/sign_in_button");

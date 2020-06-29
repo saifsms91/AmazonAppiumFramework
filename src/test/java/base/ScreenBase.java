@@ -2,15 +2,13 @@ package base;
 
 public class ScreenBase extends TestBase {
 
-	public ScreenBase() {
+    public ScreenBase() {
 
-	}
+    }
 
-	public void hideKeyboard() {
+    public void hideKeyboard() {
 
-		driver.hideKeyboard();
-	}
+        driver.hideKeyboard();
+    }
 
 }
-
-//Test

@@ -30,8 +30,7 @@ public class LandingPageAndroid extends ScreenBase {
     By signInSubmit = By.xpath("//*[@resource-id='signInSubmit']");
 
     public void tapSignInOnLandingPage() {
-        System.out.println("tapSignInOnLandingPage: " + driver); // printed to see if the tapSignInOnLandingPage is
-        // working
+        System.out.println("tapSignInOnLandingPage: " + driver);
         driver.findElement(sign_in_button).click();
     }
 
